@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit; 
+  }
+
+  body {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+  }
+
+  
